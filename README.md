@@ -51,7 +51,8 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=vishal-raaj-dnd&theme=darkhub&column=7&margin-w=8&margin-h=12&no-bg=true&no-frame=true" alt="Trophy Wall" />
+<img src="https://github-profile-trophy.vercel.app/?username=vishal-raaj-dnd&theme=darkhub&column=4&margin-w=10&margin-h=15&no-bg=true" alt="Trophies" />
+
 
 </div>
 
@@ -161,8 +162,10 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=vishal-raaj-dnd&show_icons=true&theme=radical&border_color=7c3aed&title_color=a855f7&icon_color=a855f7&bg_color=0d1117&count_private=true&rank_icon=github" height="180"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishal-raaj-dnd&layout=compact&theme=radical&border_color=7c3aed&title_color=a855f7&bg_color=0d1117&langs_count=8" height="180"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=vishal-raaj-dnd&show_icons=true&theme=radical&border_color=7c3aed&title_color=a855f7&icon_color=a855f7&bg_color=0d1117&count_private=true" height="180"/>
+
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=vishal-raaj-dnd&layout=compact&theme=radical&border_color=7c3aed&title_color=a855f7&bg_color=0d1117&langs_count=8" height="180"/>
+
 
 </div>
 
