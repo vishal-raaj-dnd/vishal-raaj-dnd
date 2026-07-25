@@ -47,14 +47,7 @@
 
 ---
 
-### 🏆 ACHIEVEMENTS UNLOCKED
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=vishal-raaj-dnd&theme=darkhub&column=4&margin-w=10&margin-h=15&no-bg=true" alt="Trophies" />
-
-
-</div>
 
 <table width="100%">
   <tr>
