@@ -1,0 +1,63 @@
+<svg width="900" height="220" viewBox="0 0 900 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a13"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#070a13"/>
+    </linearGradient>
+    <linearGradient id="neon-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="45%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="line-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Box -->
+  <rect x="2" y="2" width="896" height="216" rx="16" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1.5"/>
+  
+  <!-- Subtle Cyber Tech Grids -->
+  <line x1="30" y1="58" x2="870" y2="58" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 6"/>
+  <line x1="30" y1="156" x2="870" y2="156" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 6"/>
+
+  <!-- Cyber Corner Accents -->
+  <path d="M 20 45 L 20 20 L 45 20" stroke="#00f0ff" stroke-width="3" fill="none" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M 880 45 L 880 20 L 855 20" stroke="#00f0ff" stroke-width="3" fill="none" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M 20 175 L 20 200 L 45 200" stroke="#ec4899" stroke-width="3" fill="none" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M 880 175 L 880 200 L 855 200" stroke="#ec4899" stroke-width="3" fill="none" stroke-linecap="round" filter="url(#glow)"/>
+
+  <!-- Status HUD Indicators -->
+  <rect x="45" y="25" width="165" height="22" rx="11" fill="#00f0ff" fill-opacity="0.1" stroke="#00f0ff" stroke-width="1"/>
+  <circle cx="58" cy="36" r="4" fill="#10b981" filter="url(#glow)"/>
+  <text x="70" y="40" fill="#00f0ff" font-family="'Segoe UI', monospace, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">SYSTEM // ONLINE</text>
+
+  <rect x="675" y="25" width="180" height="22" rx="11" fill="#a855f7" fill-opacity="0.12" stroke="#a855f7" stroke-width="1"/>
+  <text x="690" y="40" fill="#c084fc" font-family="'Segoe UI', monospace, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">PLAYER LEVEL: 20</text>
+
+  <!-- Player Name -->
+  <text x="45" y="106" fill="url(#neon-cyan)" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-size="38" font-weight="900" letter-spacing="2" filter="url(#glow)">VISHAL RAAJ D N D</text>
+
+  <!-- Subtitle / Class -->
+  <text x="47" y="136" fill="#94a3b8" font-family="'Segoe UI', monospace, sans-serif" font-size="13" font-weight="500">
+    ⚔️ Autonomous AI Agents  |  ⚡ RAG &amp; Token Optimization  |  🚀 Founder @ AXOWEB
+  </text>
+
+  <!-- Divider Line -->
+  <line x1="45" y1="156" x2="855" y2="156" stroke="url(#line-cyan)" stroke-width="2"/>
+
+  <!-- Stat Badges Row -->
+  <text x="47" y="186" fill="#38bdf8" font-family="'Segoe UI', monospace, sans-serif" font-size="12" font-weight="600">
+    🎓 GUILD: IIT Madras (Data Science) + AMET (9.52 CGPA)
+  </text>
+  <text x="500" y="186" fill="#f43f5e" font-family="'Segoe UI', monospace, sans-serif" font-size="12" font-weight="600">
+    🏆 OpenAI Buildathon 2nd Place  |  📦 PyPI Author
+  </text>
+</svg>
