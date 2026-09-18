@@ -1,0 +1,10 @@
+# Scratch and generator scripts
+*.py
+
+# Raw assets and documents
+*.docx
+avatar_sheet_numbered.png
+ChatGPT*.png
+
+# Local preview
+preview.html
